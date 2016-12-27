@@ -1,0 +1,33 @@
+{
+  "name": "ascii-control-char-codes",
+  "description": "All character codes of ASCII control characters",
+  "keywords": [
+    "string",
+    "character",
+    "ascii",
+    "control",
+    "code",
+    "number",
+    "array",
+    "list",
+    "integer"
+  ],
+  "main": "module.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/ascii-control-char-codes.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "CC0-1.0",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}

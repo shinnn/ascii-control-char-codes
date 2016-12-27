@@ -1,0 +1,41 @@
+{
+  "name": "ascii-control-char-codes",
+  "version": "1.0.0",
+  "description": "All character codes of ASCII control characters",
+  "repository": "shinnn/ascii-control-char-codes",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "prebuild": "eslint --fix --format=codeframe module.js test.js",
+    "build": "rollup --config=node:module",
+    "pretest": "npm run-script build",
+    "test": "node test.js"
+  },
+  "license": "CC0-1.0",
+  "module": "module.js",
+  "files": [
+    "index.js",
+    "module.js"
+  ],
+  "keywords": [
+    "string",
+    "character",
+    "ascii",
+    "control",
+    "code",
+    "number",
+    "array",
+    "list",
+    "integer"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config": "^3.3.6",
+    "eslint": "^3.12.2",
+    "is-ascii-control-char-code": "^1.0.0",
+    "rollup": "^0.38.0",
+    "rollup-config-module": "^1.0.0",
+    "tape": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn"
+  }
+}

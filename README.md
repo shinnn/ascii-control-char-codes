@@ -1,8 +1,7 @@
 # ascii-control-char-codes
 
-[![NPM version](https://img.shields.io/npm/v/ascii-control-char-codes.svg)](https://www.npmjs.com/package/ascii-control-char-codes)
-[![Bower version](https://img.shields.io/bower/v/ascii-control-char-codes.svg)](https://github.com/shinnn/ascii-control-char-codes/releases)
-[![Build Status](https://travis-ci.org/shinnn/ascii-control-char-codes.svg?branch=master)](https://travis-ci.org/shinnn/ascii-control-char-codes)
+[![npm version](https://img.shields.io/npm/v/ascii-control-char-codes.svg)](https://www.npmjs.com/package/ascii-control-char-codes)
+[![Build Status](https://travis-ci.com/shinnn/ascii-control-char-codes.svg?branch=master)](https://travis-ci.com/shinnn/ascii-control-char-codes)
 
 All character codes of ASCII control characters
 
@@ -20,23 +19,17 @@ asciiControlCharacterCodes.includes('A'.charCodeAt(0)); //=> false
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install ascii-control-char-codes
-```
-
-### [bower](https://bower.io/)
-
-```
-bower install ascii-control-char-codes
 ```
 
 ## API
 
 ### caretNotationCharacters
 
-Type: `Array` of integers
+Type: `integer[]`
 
 ## License
 
